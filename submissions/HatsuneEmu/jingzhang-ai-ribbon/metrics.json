@@ -102,40 +102,44 @@
   },
   "rail_corridor_length_km": {
    "status": "known",
-   "value": 0.01,
+   "value": 9.72,
    "unit": "km",
    "source_files": [
     "geometry/roads.geojson"
    ],
-   "formula": "corridor_area / corridor_width (approx)",
-   "confidence": "low",
+   "formula": "corridor_bounds_length (EPSG:4548, south-north span of ROAD-BELT)",
+   "confidence": "medium",
    "assumptions": [
-    "Corridor length is an approximation from band geometry."
+    "走廊为沿绿脉的纵向长条；长度=投影后边界南北跨距，正式阶段需按线位实测校准"
    ]
   },
   "public_space_ratio": {
    "status": "known",
-   "value": 0.035,
-   "unit": "pct",
+   "value": 0.02992,
+   "unit": "fraction",
    "source_files": [
     "geometry/public_space.geojson",
     "geometry/site_boundary.geojson"
    ],
-   "formula": "public_space_area / site_area * 100",
+   "formula": "sum(public_space_area, EPSG:4548) / site_area",
    "confidence": "medium",
-   "assumptions": []
+   "assumptions": [
+    "比例为0-1分数（约2.99%）；与公共空间面积复算一致"
+   ]
   },
   "green_ratio": {
    "status": "known",
-   "value": 0.262,
-   "unit": "pct",
+   "value": 0.2618,
+   "unit": "fraction",
    "source_files": [
     "geometry/green_space.geojson",
     "geometry/site_boundary.geojson"
    ],
-   "formula": "green_corridor_area / site_area * 100",
+   "formula": "sum(green_space_area, EPSG:4548) / site_area",
    "confidence": "medium",
-   "assumptions": []
+   "assumptions": [
+    "0-1分数；green_ratio_pct = green_ratio × 100"
+   ]
   }
  }
 }
