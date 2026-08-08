@@ -1,0 +1,48 @@
+{
+ "schema_version": "0.1.0",
+ "sources": [
+  {
+   "source_id": "project-official-announcement",
+   "title": "百年京张AI创新带城市设计国际方案征集公告",
+   "type": "official_announcement",
+   "usable_for_formal": "yes",
+   "note": "任务书核心"
+  },
+  {
+   "source_id": "design-brief",
+   "title": "设计任务书 design_brief.json",
+   "type": "official_attachment",
+   "usable_for_formal": "yes",
+   "note": ""
+  },
+  {
+   "source_id": "agent-taskbook",
+   "title": "Agent开放征集任务书",
+   "type": "official_attachment",
+   "usable_for_formal": "yes",
+   "note": ""
+  },
+  {
+   "source_id": "allowed-design-space",
+   "title": "允许设计空间",
+   "type": "official_attachment",
+   "usable_for_formal": "yes",
+   "note": ""
+  },
+  {
+   "source_id": "provisional-boundaries",
+   "title": "临时边界 provisional_boundaries.geojson",
+   "type": "provisional_only",
+   "usable_for_formal": "no",
+   "note": "官方边界发布前仅用于接收与可视化",
+   "provisional": true
+  },
+  {
+   "source_id": "source-registry",
+   "title": "data/source_registry.json 公共数据源登记表",
+   "type": "registry",
+   "usable_for_formal": "yes",
+   "note": "用于区分数据可用性"
+  }
+ ]
+}
