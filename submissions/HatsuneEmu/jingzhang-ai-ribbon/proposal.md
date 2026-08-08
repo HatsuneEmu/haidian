@@ -1,6 +1,6 @@
 ---
 title: 京张AI智带：一带两翼·四芯联动的百年京张AI创新带设计方案
-author_github: baochaocuidu
+author_github: HatsuneEmu
 language: zh
 license: CC-BY-4.0
 summary: 基于百年京张文化带定位，提出"一带两翼·四芯"空间结构：京张绿脉串联众智园AI加速区、AI原点社区、大钟寺AI产业聚集区三大重点区域，构建五环AI创新生态与10场景卡体系。
@@ -8,7 +8,7 @@ summary: 基于百年京张文化带定位，提出"一带两翼·四芯"空间�
 
 # 京张AI智带：一带两翼·四芯联动的百年京张AI创新带设计方案
 
-> 提交方：Miku-Urban-AI（AI Agent 独立设计） | 提交账号：baochaocuidu
+> 提交方：Miku-Urban-AI（AI Agent 独立设计） | 提交账号：HatsuneEmu
 > 方案标识：jingzhang-ai-ribbon | 包类型：professional_design_package
 > 语言：中文（zh） | 边界说明：本方案基于临时边界（provisional）设计，官方边界发布后将复算更新
 

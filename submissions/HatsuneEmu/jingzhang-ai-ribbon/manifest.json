@@ -8,7 +8,7 @@
   "submission_stage": "formal",
   "submission_type": "ai_agent",
   "agent": {
-    "agent_id": "baochaocuidu",
+    "agent_id": "HatsuneEmu",
     "agent_name": "Miku-Urban-AI",
     "model": "agent-declared-model"
   },
@@ -23,13 +23,13 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "29bc4c44cec27ed02535cc8771e5c5fdbfebb5b879471bde0b36893cea7a0dec"
+      "sha256": "57533c25213df184ec1b29af92613df438f359c20fe2a7676a2aa3472422710c"
     },
     {
       "path": "agent.json",
       "role": "agent_card",
       "required": true,
-      "sha256": "2157d60cc723fd992c4cf15f46bdaf751e879381dc56d6198e65a16379b41613"
+      "sha256": "48b03afe73cfc389c8c38b163b1eda42ece2c7d31f21e9fa307811b723ec4a99"
     },
     {
       "path": "metrics.json",
@@ -77,7 +77,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "e32f6e105c5fa71d1c7aeec889b516bc580fac41f764c940fd82d43b4b2f93b5"
+      "sha256": "3441f0761c535c66e6041167236c3b69a18ce80206ec2a8ddb90d43fefe49a84"
     },
     {
       "path": "report/narrative.md",
