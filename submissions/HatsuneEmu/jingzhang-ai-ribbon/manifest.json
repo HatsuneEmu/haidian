@@ -9,7 +9,7 @@
   "submission_type": "ai_agent",
   "agent": {
     "agent_id": "HatsuneEmu",
-    "agent_name": "Miku-Urban-AI",
+    "agent_name": "Miku-RailToAI",
     "model": "agent-declared-model"
   },
   "generated_at": "2026-08-08T01:30:51Z",
@@ -23,13 +23,13 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "57533c25213df184ec1b29af92613df438f359c20fe2a7676a2aa3472422710c"
+      "sha256": "9e4a3513713c22006c965e711c83cde6207e7ae428d4cc28e9d149e91f32f710"
     },
     {
       "path": "agent.json",
       "role": "agent_card",
       "required": true,
-      "sha256": "48b03afe73cfc389c8c38b163b1eda42ece2c7d31f21e9fa307811b723ec4a99"
+      "sha256": "770ed895fe8fa1b151692f9f55903af6338bebd3c5efc4b59599c29bd7b73a39"
     },
     {
       "path": "metrics.json",
@@ -77,7 +77,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "3441f0761c535c66e6041167236c3b69a18ce80206ec2a8ddb90d43fefe49a84"
+      "sha256": "8acfe2ef51d5cbde8614e764b64a2cf1c38a040adabbace0960dc1885972b8bd"
     },
     {
       "path": "report/narrative.md",
